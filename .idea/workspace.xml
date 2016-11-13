@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f3ce7a11-f49d-492a-b273-d4eb9ef25b9e" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADC/ADC.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADC/simptest.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DAC/setvalue.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DAC/simptest.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DAC/sinwave.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DAC/squarewave.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DAC/triwave.py" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Skonan/ADC/ADC.py" afterPath="$PROJECT_DIR$/Skonan/ADC/ADC.py" />
     </list>
     <ignored path="ScienceFair2016.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -29,11 +23,33 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="600">
-      <file leaf-file-name="simptest.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="simptest.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Skonan/DAC/simptest.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
+            <state relative-caret-position="792">
+              <caret line="27" column="8" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ADC.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Skonan/ADC/ADC.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1599">
+              <caret line="63" column="0" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="simptest.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Skonan/ADC/simptest.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="5" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -56,6 +72,7 @@
       <list>
         <option value="$PROJECT_DIR$/DAC/MCP4725.py" />
         <option value="$PROJECT_DIR$/DAC/simptest.py" />
+        <option value="$PROJECT_DIR$/Skonan/ADC/ADC.py" />
       </list>
     </option>
   </component>
@@ -120,6 +137,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Skonan" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ScienceFair2016" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ScienceFair2016" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Skonan" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ADC" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -345,8 +380,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Skonan/DAC/simptest.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
+        <state relative-caret-position="792">
+          <caret line="27" column="8" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Skonan/ADC/ADC.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1599">
+          <caret line="63" column="0" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Skonan/ADC/simptest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="5" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
           <folding />
         </state>
       </provider>

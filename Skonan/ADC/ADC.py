@@ -61,6 +61,4 @@ class ADCThread:
 		
 	def stop(self):
 		self.interrupt = True
-			
-			
-		
+
