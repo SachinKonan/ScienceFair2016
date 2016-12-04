@@ -16,9 +16,15 @@ class ADCThread:
 		self.adcval2 = 0
 		self.adcval3 = 0
 		self.adcval4 = 0
+		self.samples = 0
+		self.start_time = 0
+		self.end_time = 0
+		self.samplingrate = 0
 		
 	def start(self):
 		Thread(target= self.channel1,args =()).start()
+		
+		#self.start_time = time.time()
 		#Thread(target = self.channel2,args = ()).start()
 	
 	def channel1(self):
@@ -27,6 +33,7 @@ class ADCThread:
 		while True:
 			
 			if(self.interrupt):
+				
 				return
 			
 			else:
@@ -34,7 +41,9 @@ class ADCThread:
 				self.adcval2 = self.adc.read_adc(1, gain=self.GAIN)
 				self.adcval3 = self.adc.read_adc(2, gain=self.GAIN)
 				self.adcval4 = self.adc.read_adc(3, gain=self.GAIN)
-				
+				#self.end_time = time.time()
+				#self.samples+=1
+				time.sleep(0.0005)
 	
 	def channel2(self):
 		i = 1
@@ -58,6 +67,15 @@ class ADCThread:
 	
 	def getADCVal4(self):
 		return self.adcval4
+		
+	"""
+	def calcSamplingRate(self):
+		tottime = self.end_time - self.start_time
+		return self.samples/tottime
+	
+	def printnumSamples(self):
+		return self.samples		
+	"""
 		
 	def stop(self):
 		self.interrupt = True
